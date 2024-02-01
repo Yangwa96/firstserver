@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const port = process.env.Port;
+const port = process.env.PORT;
 const  handle = (fileName,statuscode,req,res) =>{
 
         fs.readFile(fileName, "utf-8",(err, data) =>{
